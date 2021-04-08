@@ -2,12 +2,12 @@ import datetime
 import uuid
 import traceback
 import pymongo
-from qaenv import mongo_ip
+#from qaenv import mongo_ip
 import bson
 from QIFIAccount.QAPosition import QA_Position
 from QUANTAXIS.QAARP.market_preset import MARKET_PRESET
 
-
+mongo_ip = '192.168.0.151'
 class ORDER_DIRECTION():
     """订单的买卖方向
 
